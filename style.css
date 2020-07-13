@@ -1,0 +1,216 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*=============== common Css =============== */
+h1{
+    font-size: 45px;
+    line-height: 1;
+}
+h2{
+    font-size: 45px;
+    color: rgb(38, 3, 153);
+}
+h3{
+    color: rgb(240, 58, 12);
+}
+p{
+    color:grey;
+    text-align: justify;
+    font-size: 16px;
+}
+.btn{  
+    text-decoration: none;
+    font-weight: 500;
+    background-image: linear-gradient(45deg, rgb(51, 193, 240), rgb(36, 36, 207));
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:rgb(255, 255, 255)
+}
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(45deg, rgb(36, 36, 207),rgb(51, 193, 240)) ;
+}
+img:hover{
+    cursor: pointer;
+}
+
+/*-- ================= Hello  ===================== -- */
+
+.container{
+    background-image: url(pic/header-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 200px;
+    background-size: cover;
+    padding: 60px 0 100px 60px;
+}
+.hello{
+    width: 45%;
+}
+.hello img{
+    width: 100%;
+
+}
+
+/*-- ================= Biography  ===================== -- */
+
+#biography{
+    background-image: url(pic/biography-bg.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 80px 100px 0px;
+    display: flex;
+}
+.about{
+    margin-top: 50px;
+    margin-left: 10%;
+
+}
+
+/*-- ================= Services  ===================== -- */
+
+#services{
+background-image: url(pic/top-banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 80px 30px 50px 30px; 
+}
+#what{
+    text-align: center;
+    color: black;
+
+}
+#my-work{
+   display: flex;
+    text-align:center;
+    max-width: 100%;
+  
+}
+.work{
+    text-align:center;
+    width:30%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    padding: 30px 20px;
+   
+}
+.work h2{
+    font-size: 30px;
+}
+
+
+/*-- ================= Last Work ===================== -- */
+
+.last-work{
+    text-align: center;
+    background-image: url(pic/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.last-work h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.all-work{
+    display: flex;
+    max-width: 100%;
+   margin-top: 100px;
+    
+}
+.all-work img{
+    max-width: 90%;
+    margin: 2%;
+   box-shadow: 10px 10px 40px  rgba(30, 105, 202, 0.801);
+   box-sizing: border-box;
+}
+
+
+/*-- ================= Comment ===================== -- */
+
+
+#comment{
+    background-image: url(pic/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.client{
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    margin-bottom: .5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.bruce{
+    font-size: 30px;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-weight: 500;
+    box-sizing: border-box;
+    color: black;
+}
+.ceo{
+    text-align: center;
+    font-size: 20px;
+    color:dimgray;
+    margin-bottom:1rem ;
+    box-sizing: border-box;
+}
+.lorem{
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/*-- ================= footer ===================== -- */
+
+footer{
+    display: flex;
+    max-width: 100%;
+    height: 300px;
+    background-color:#292C2F ;
+    margin-left: 0;
+    box-sizing:border-box;
+    margin-top: 100px;
+}
+.footer-area{
+    max-width: 30%;
+    margin-left: 3%;
+    padding:3%;
+}
+.footer-area h4{
+    color: rgb(248, 240, 240);
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+#f-name{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 151, 139);
+}
+span{
+    color: #5383D3;
+}
+.email{
+    font-size: 22px;
+    color: #5383D3;
+    cursor: pointer;
+}
+#facebook{
+    text-decoration: none;
+    height: 48px;
+    width: 48px;
+}
+a{
+    text-decoration: none !important;
+}
+
+/*-- ================= End ===================== -- */
